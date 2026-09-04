@@ -1,0 +1,328 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 13.0.3.0 for Windows">
+<META http-equiv="Content-Style-Type" content="text/css">
+<META name="IBM:HPB-Input-Mode" content="mode/flm; pagewidth=1024; pageheight=768">
+<TITLE>2003大分</TITLE>
+<SCRIPT language="JavaScript">
+<!--HPB_SCRIPT_ROV_50
+//
+//  Licensed Materials - Property of IBM
+//  5724G06
+//  (C) Copyright IBM Corp. 1995, 2003 All Rights Reserved.
+//
+
+// HpbImgPreload:
+//
+function HpbImgPreload()
+{
+  var appVer=parseInt(navigator.appVersion);
+  var isNC=false,isN6=false,isIE=false;
+  if (document.all && appVer >= 4) isIE=true; else
+    if (document.getElementById && appVer > 4) isN6=true; else
+      if (document.layers && appVer >= 4) isNC=true;
+  if (isNC||isN6||isIE)
+  {
+    if (document.images)
+    {
+      var imgName = HpbImgPreload.arguments[0];
+      var cnt;
+      swImg[imgName] = new Array;
+      for (cnt = 1; cnt < HpbImgPreload.arguments.length; cnt++)
+      {
+        swImg[imgName][HpbImgPreload.arguments[cnt]] = new Image();
+        swImg[imgName][HpbImgPreload.arguments[cnt]].src = HpbImgPreload.arguments[cnt];
+      }
+    }
+  }
+}
+// HpbImgFind:
+//
+function HpbImgFind(doc, imgName)
+{
+  for (var i=0; i < doc.layers.length; i++)
+  {
+    var img = doc.layers[i].document.images[imgName];
+    if (!img) img = HpbImgFind(doc.layers[i], imgName);
+    if (img) return img;
+  }
+  return null;
+}
+// HpbImgSwap:
+//
+function HpbImgSwap(imgName, imgSrc)
+{
+  var appVer=parseInt(navigator.appVersion);
+  var isNC=false,isN6=false,isIE=false;
+  if (document.all && appVer >= 4) isIE=true; else
+    if (document.getElementById && appVer > 4) isN6=true; else
+      if (document.layers && appVer >= 4) isNC=true;
+  if (isNC||isN6||isIE)
+  {
+    if (document.images)
+    {
+      var img = document.images[imgName];
+      if (!img) img = HpbImgFind(document, imgName);
+      if (img) img.src = imgSrc;
+    }
+  }
+}
+var swImg; swImg=new Array;
+//-->
+</SCRIPT><SCRIPT language="JavaScript">
+<!--HPB_SCRIPT_PLD_50
+HpbImgPreload('_HPB_ROLLOVER9', 'usatorii.jpg', 'usanakai.jpg');
+HpbImgPreload('_HPB_ROLLOVER11', 'usaetuko.jpg', 'usahirao.jpg');
+HpbImgPreload('_HPB_ROLLOVER12', 'rojji.jpg', 'kunisaki.jpg');
+HpbImgPreload('_HPB_ROLLOVER15', 'sekibutu.jpg', 'usukiall.jpg');
+HpbImgPreload('_HPB_ROLLOVER16', 'fugu2.jpg', 'fugu1.jpg');
+HpbImgPreload('_HPB_ROLLOVER17', 'hitasansaku.jpg', 'hitayasumi.jpg');
+HpbImgPreload('_HPB_ROLLOVER14', 'utafuji.jpg', 'utamorii.jpg');
+HpbImgPreload('_HPB_ROLLOVER1', '2c.gif', '2d.gif');
+HpbImgPreload('_HPB_ROLLOVER2', '3c1.gif', '3d1.gif');
+HpbImgPreload('_HPB_ROLLOVER3', '3c2.gif', '3d2.gif');
+HpbImgPreload('_HPB_ROLLOVER4', '4c.gif', '4d.gif');
+HpbImgPreload('_HPB_ROLLOVER5', '5c.gif', '5d.gif');
+HpbImgPreload('_HPB_ROLLOVER6', '7c.gif', '7d.gif');
+HpbImgPreload('_HPB_ROLLOVER7', '8c.gif', '8d.gif');
+HpbImgPreload('_HPB_ROLLOVER8', '9c.gif', '9d.gif');
+HpbImgPreload('_HPB_ROLLOVER10', '10c.gif', '10d.gif');
+HpbImgPreload('_HPB_ROLLOVER18', '1c.gif', '1d.gif');
+HpbImgPreload('_HPB_ROLLOVER13', 'utanishiyama.jpg', 'hakusyu.jpg');
+HpbImgPreload('_HPB_ROLLOVER19', '11c.gif', '11d.gif');
+//-->
+</SCRIPT></HEAD>
+<BODY bgcolor="#FFCC66" text="#000000" link="#0000FF" vlink="#0000FF" alink="#0000FF" background="sh05_bg.gif">
+<DIV style="top : 15px;left : 0px;
+  position : absolute;
+  z-index : 1;
+  visibility : visible;
+" id="Layer1"><IMG src="4a.gif" width="600" height="90" border="0"></DIV>
+<DIV style="top : 31px;left : 650px;
+  position : absolute;
+  z-index : 2;
+  visibility : visible;
+" id="Layer9"><IMG src="6b.gif" width="275" height="62" border="0"></DIV>
+<DIV style="top : 131px;left : 300px;
+  position : absolute;
+  z-index : 3;
+  width : 693px;
+  height : 120px;
+" id="Layer14">
+<P><B><FONT color="#660000" face="ＭＳ ゴシック" size="2">2003年は11月1～3日まで、大分県を回りました。<BR>
+宇佐神宮・国東半島・臼杵・日田など。ほんとはもっとたくさん回る計画だったのですが<BR>
+みんな食べ物の魅力に負けて、昼間からふぐ料理の店に一直線。でもほかでは味わえない<BR>
+ふぐの肝を食べることができて大満足でした。</FONT></B>　　　　　</P>
+</DIV>
+<DIV style="top : 474px;left : 419px;
+  position : absolute;
+  z-index : 4;
+  width : 476px;
+  height : 100px;
+" id="Layer15">
+<P><FONT size="2" color="#ec510f"><FONT color="#ec510f" size="2"><FONT color="#ec510f" size="2"><B>&lt;宇佐神宮&gt;</B></FONT></FONT></FONT><FONT size="2"><BR>
+</FONT><FONT size="2" face="ＭＳ ゴシック">全国に4万社あまりある八幡宮の総本宮。<BR>
+広い広い境内の中に、うっそうとした森と神殿と庭園があって<BR>
+絵になる風景がたくさんありました。</FONT></P>
+</DIV>
+<DIV style="top : 425px;left : 901px;
+  position : absolute;
+  z-index : 5;
+" id="Layer16">
+<P><FONT color="#0000ff" size="2" face="Arial"><FONT color="#8000ff" size="2" face="Arial"><FONT color="#8000ff" size="2" face="Arial">More</FONT></FONT></FONT></P>
+</DIV>
+<DIV style="top : 230px;left : 224px;
+  position : absolute;
+  z-index : 6;
+" id="Layer17"><A href="#" id="_HPB_ROLLOVER9" onmouseout="HpbImgSwap('_HPB_ROLLOVER9', 'usatorii.jpg');" onmouseover="HpbImgSwap('_HPB_ROLLOVER9', 'usanakai.jpg');"><IMG src="usatorii.jpg" width="282" height="210" border="0" name="_HPB_ROLLOVER9"></A></DIV>
+<DIV style="top : 232px;left : 618px;
+  position : absolute;
+  z-index : 7;
+" id="Layer18"><A href="#" id="_HPB_ROLLOVER11" onmouseout="HpbImgSwap('_HPB_ROLLOVER11', 'usaetuko.jpg');" onmouseover="HpbImgSwap('_HPB_ROLLOVER11', 'usahirao.jpg');"><IMG src="usaetuko.jpg" width="276" height="207" border="0" name="_HPB_ROLLOVER11"></A></DIV>
+<DIV style="top : 1810px;left : 136px;
+  position : absolute;
+  z-index : 8;
+" id="Layer19"><IMG src="bullet001.gif" width="20" height="22" border="0"></DIV>
+<DIV style="top : 427px;left : 513px;
+  position : absolute;
+  z-index : 9;
+" id="Layer20">
+<P><FONT color="#0000ff" size="2" face="Arial"><FONT color="#8000ff" size="2" face="Arial"><FONT color="#8000ff" size="2" face="Arial">More</FONT></FONT></FONT></P>
+</DIV>
+<DIV style="top : 576px;left : 225px;
+  position : absolute;
+  z-index : 10;
+" id="Layer21"><A href="#" id="_HPB_ROLLOVER12" onmouseout="HpbImgSwap('_HPB_ROLLOVER12', 'rojji.jpg');" onmouseover="HpbImgSwap('_HPB_ROLLOVER12', 'kunisaki.jpg');"><IMG src="rojji.jpg" width="278" height="208" border="0" name="_HPB_ROLLOVER12"></A></DIV>
+<DIV style="top : 998px;left : 871px;
+  position : absolute;
+  z-index : 12;
+" id="Layer25">
+<P><FONT color="#0000ff" size="2" face="Arial"><FONT color="#8000ff" size="2" face="Arial"><FONT color="#8000ff" size="2" face="Arial">More</FONT></FONT></FONT></P>
+</DIV>
+<DIV style="top : 999px;left : 541px;
+  position : absolute;
+  z-index : 13;
+" id="Layer26">
+<P><FONT color="#0000ff" size="2" face="Arial"><FONT color="#8000ff" size="2" face="Arial"><FONT color="#8000ff" size="2" face="Arial">More</FONT></FONT></FONT></P>
+</DIV>
+<DIV style="top : 771px;left : 509px;
+  position : absolute;
+  z-index : 14;
+" id="Layer27">
+<P><FONT color="#0000ff" size="2" face="Arial"><FONT color="#8000ff" size="2" face="Arial"><FONT color="#8000ff" size="2" face="Arial">More</FONT></FONT></FONT></P>
+</DIV>
+<DIV style="top : 1054px;left : 234px;
+  position : absolute;
+  z-index : 15;
+" id="Layer28"><A href="#" id="_HPB_ROLLOVER15" onmouseout="HpbImgSwap('_HPB_ROLLOVER15', 'sekibutu.jpg');" onmouseover="HpbImgSwap('_HPB_ROLLOVER15', 'usukiall.jpg');"><IMG src="sekibutu.jpg" width="263" height="198" border="0" name="_HPB_ROLLOVER15"></A></DIV>
+<DIV style="top : 1278px;left : 234px;
+  position : absolute;
+  z-index : 16;
+" id="Layer29"><A href="#" id="_HPB_ROLLOVER16" onmouseout="HpbImgSwap('_HPB_ROLLOVER16', 'fugu2.jpg');" onmouseover="HpbImgSwap('_HPB_ROLLOVER16', 'fugu1.jpg');"><IMG src="fugu2.jpg" width="265" height="199" border="0" name="_HPB_ROLLOVER16"></A></DIV>
+<DIV style="top : 1510px;left : 233px;
+  position : absolute;
+  z-index : 17;
+" id="Layer30"><A href="#" id="_HPB_ROLLOVER17" onmouseout="HpbImgSwap('_HPB_ROLLOVER17', 'hitasansaku.jpg');" onmouseover="HpbImgSwap('_HPB_ROLLOVER17', 'hitayasumi.jpg');"><IMG src="hitasansaku.jpg" width="265" height="199" border="0" name="_HPB_ROLLOVER17"></A></DIV>
+<DIV style="top : 1101px;left : 540px;
+  position : absolute;
+  z-index : 18;
+  width : 373px;
+  height : 67px;
+" id="Layer31">
+<P><FONT size="2" color="#ec510f"><FONT color="#ec510f" size="2"><FONT color="#ec510f" size="2"><B>&lt;臼杵の石仏&gt;</B></FONT></FONT></FONT><FONT size="2"><BR>
+</FONT><FONT size="2" face="ＭＳ ゴシック">高速道路ができてずいぶん行きやすくなりました。<BR>
+ボランティアのガイドさんがいて、私たちも<BR>
+ガイドさんを頼んで案内してもらいました。</FONT></P>
+</DIV>
+<DIV style="top : 1696px;left : 503px;
+  position : absolute;
+  z-index : 21;
+" id="Layer34">
+<P><FONT color="#0000ff" size="2" face="Arial"><FONT color="#8000ff" size="2" face="Arial"><FONT color="#8000ff" size="2" face="Arial">More</FONT></FONT></FONT></P>
+</DIV>
+<DIV style="top : 1465px;left : 506px;
+  position : absolute;
+  z-index : 22;
+" id="Layer35">
+<P><FONT color="#0000ff" size="2" face="Arial"><FONT color="#8000ff" size="2" face="Arial"><FONT color="#8000ff" size="2" face="Arial">More</FONT></FONT></FONT></P>
+</DIV>
+<DIV style="top : 1239px;left : 506px;
+  position : absolute;
+  z-index : 23;
+" id="Layer36">
+<P><FONT color="#0000ff" size="2" face="Arial"><FONT color="#8000ff" size="2" face="Arial"><FONT color="#8000ff" size="2" face="Arial">More</FONT></FONT></FONT></P>
+</DIV>
+<DIV style="top : 819px;left : 612px;
+  position : absolute;
+  z-index : 25;
+" id="Layer23"><A href="#" id="_HPB_ROLLOVER14" onmouseout="HpbImgSwap('_HPB_ROLLOVER14', 'utafuji.jpg');" onmouseover="HpbImgSwap('_HPB_ROLLOVER14', 'utamorii.jpg');"><IMG src="utafuji.jpg" width="253" height="191" border="0" name="_HPB_ROLLOVER14"></A></DIV>
+<DIV style="top : 1741px;left : 600px;
+  position : absolute;
+  z-index : 26;
+" id="Layer37"><A href="#UpPage"><IMG src="button2.gif" width="39" height="39" border="0" alt="この頁のTOPに移動"></A></DIV>
+<DIV style="top : 140px;left : 235px;
+  position : absolute;
+  z-index : 27;
+" id="Layer39"><IMG src="a_btn080.gif" width="49" height="51" border="0"></DIV>
+<DIV style="top : 4px;left : 992px;
+  position : absolute;
+  z-index : 28;
+  visibility : hidden;
+" id="Layer38"><A NAME="UpPage"><IMG src="bullet079.gif" width="16" height="16" border="0"></A></DIV>
+<DIV style="top : 289px;left : 15px;
+  position : absolute;
+  z-index : 40;
+" id="Layer126"><IMG src="tc1.gif" width="139" height="36" border="0"></DIV>
+<DIV style="top : 248px;left : 15px;
+  position : absolute;
+  z-index : 39;
+" id="Layer89"><A href="photo2.html" id="_HPB_ROLLOVER3" onmouseout="HpbImgSwap('_HPB_ROLLOVER3', '3c2.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER3', '3d2.gif');"><IMG src="3c2.gif" width="139" height="36" border="0" name="_HPB_ROLLOVER3"></A></DIV>
+<DIV style="top : 207px;left : 15px;
+  position : absolute;
+  z-index : 38;
+" id="Layer45"><A href="photo1.htm" id="_HPB_ROLLOVER2" onmouseout="HpbImgSwap('_HPB_ROLLOVER2', '3c1.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER2', '3d1.gif');"><IMG src="3c1.gif" width="139" height="36" border="0" name="_HPB_ROLLOVER2"></A></DIV>
+<DIV style="top : 510px;left : 31px;
+  position : absolute;
+  z-index : 37;
+" id="Layer57"><A href="2006.htm" id="_HPB_ROLLOVER8" onmouseout="HpbImgSwap('_HPB_ROLLOVER8', '9c.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER8', '9d.gif');"><IMG src="9c.gif" width="123" height="31" border="0" name="_HPB_ROLLOVER8"></A></DIV>
+<DIV style="top : 402px;left : 31px;
+  position : absolute;
+  z-index : 36;
+" id="Layer58"><IMG src="6e.gif" width="123" height="31" border="0"></DIV>
+<DIV style="top : 546px;left : 31px;
+  position : absolute;
+  z-index : 35;
+" id="Layer59"><A href="2007.htm" id="_HPB_ROLLOVER10" onmouseout="HpbImgSwap('_HPB_ROLLOVER10', '10c.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER10', '10d.gif');"><IMG src="10c.gif" width="123" height="31" border="0" name="_HPB_ROLLOVER10"></A></DIV>
+<DIV style="top : 474px;left : 31px;
+  position : absolute;
+  z-index : 34;
+" id="Layer60"><A href="2005.htm" id="_HPB_ROLLOVER7" onmouseout="HpbImgSwap('_HPB_ROLLOVER7', '8c.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER7', '8d.gif');"><IMG src="8c.gif" width="123" height="31" border="0" name="_HPB_ROLLOVER7"></A></DIV>
+<DIV style="top : 438px;left : 31px;
+  position : absolute;
+  z-index : 33;
+" id="Layer61"><A href="2004.htm" id="_HPB_ROLLOVER6" onmouseout="HpbImgSwap('_HPB_ROLLOVER6', '7c.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER6', '7d.gif');"><IMG src="7c.gif" width="123" height="31" border="0" name="_HPB_ROLLOVER6"></A></DIV>
+<DIV style="top : 366px;left : 31px;
+  position : absolute;
+  z-index : 32;
+" id="Layer62"><A href="2002.htm" id="_HPB_ROLLOVER5" onmouseout="HpbImgSwap('_HPB_ROLLOVER5', '5c.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER5', '5d.gif');"><IMG src="5c.gif" width="123" height="31" border="0" name="_HPB_ROLLOVER5"></A></DIV>
+<DIV style="top : 634px;left : 553px;
+  position : absolute;
+  z-index : 11;
+  width : 408px;
+  height : 120px;
+" id="Layer24">
+<P><FONT size="2" color="#ec510f"><FONT color="#ec510f" size="2"><FONT color="#ec510f" size="2"><B>&lt;国東半島 あかねの郷&gt;</B></FONT></FONT></FONT><FONT size="2"><BR>
+</FONT><FONT size="2" face="ＭＳ ゴシック">山の頂上近くですが温泉が出ます。<BR>
+ここのロッジはお薦めですよ。<BR>
+それから宴会場で初のカラオケをやってみたところ<BR>
+大いに盛り上がりました。</FONT></P>
+</DIV>
+<DIV style="top : 330px;left : 31px;
+  position : absolute;
+  z-index : 31;
+" id="Layer63"><A href="2001.htm" id="_HPB_ROLLOVER4" onmouseout="HpbImgSwap('_HPB_ROLLOVER4', '4c.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER4', '4d.gif');"><IMG src="4c.gif" width="123" height="31" border="0" name="_HPB_ROLLOVER4"></A></DIV>
+<DIV style="top : 1313px;left : 540px;
+  position : absolute;
+  z-index : 19;
+  width : 465px;
+  height : 160px;
+" id="Layer32">
+<P><FONT size="2" color="#ec510f"><FONT color="#ec510f" size="2"><FONT color="#ec510f" size="2"><B>&lt;大分市&gt;</B></FONT></FONT></FONT><FONT size="2"><BR>
+</FONT><FONT size="2" face="ＭＳ ゴシック">手頃な値段のふぐ料理専門店を探し、予定を変更して大分に<BR>
+もどり、やっと到着して乾杯しているところ。<BR>
+ふぐ料理フルコースの中でもふぐの肝は絶品でした。<BR>
+はじめこわごわでしたがお替りするほど。そして延々2時間も<BR>
+食べて笑っておしゃべりして・・・大爆笑でもう疲れました。</FONT></P>
+</DIV>
+<DIV style="top : 166px;left : 15px;
+  position : absolute;
+  z-index : 30;
+" id="Layer65"><A href="profile.htm" id="_HPB_ROLLOVER1" onmouseout="HpbImgSwap('_HPB_ROLLOVER1', '2c.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER1', '2d.gif');"><IMG src="2c.gif" width="139" height="36" border="0" name="_HPB_ROLLOVER1"></A></DIV>
+<DIV style="top : 125px;left : 15px;
+  position : absolute;
+  z-index : 29;
+" id="Layer66"><A href="index.htm" id="_HPB_ROLLOVER18" onmouseout="HpbImgSwap('_HPB_ROLLOVER18', '1c.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER18', '1d.gif');"><IMG src="1c.gif" width="139" height="36" border="0" name="_HPB_ROLLOVER18"></A></DIV>
+<DIV style="top : 818px;left : 278px;
+  position : absolute;
+  z-index : 41;
+" id="Layer2"><A href="#" id="_HPB_ROLLOVER13" onmouseout="HpbImgSwap('_HPB_ROLLOVER13', 'utanishiyama.jpg');" onmouseover="HpbImgSwap('_HPB_ROLLOVER13', 'hakusyu.jpg');"><IMG src="utanishiyama.jpg" width="256" height="194" border="0" name="_HPB_ROLLOVER13"></A></DIV>
+<DIV style="top : 582px;left : 31px;
+  position : absolute;
+  z-index : 42;
+" id="Layer3"><A href="2008.htm" id="_HPB_ROLLOVER19" onmouseout="HpbImgSwap('_HPB_ROLLOVER19', '11c.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER19', '11d.gif');"><IMG src="11c.gif" width="123" height="31" border="0" name="_HPB_ROLLOVER19"></A></DIV>
+<DIV style="top : 1564px;left : 544px;
+  position : absolute;
+  z-index : 20;
+  width : 370px;
+  height : 64px;
+" id="Layer33">
+<P><FONT size="2" color="#ec510f"><FONT color="#ec510f" size="2"><FONT color="#ec510f" size="2"><B>&lt;天領 日田&gt;</B></FONT></FONT></FONT><FONT size="2"><BR>
+</FONT><FONT size="2" face="ＭＳ ゴシック">数年前に比べると、きれいに道が舗装されていて<BR>
+小奇麗な店が並び、落ち着いた雰囲気で散策<BR>
+できました。<BR>
+</FONT></P>
+</DIV>
+</BODY>
+</HTML>
