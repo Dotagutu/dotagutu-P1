@@ -1,0 +1,240 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 13.0.4.0 for Windows">
+<META http-equiv="Content-Style-Type" content="text/css">
+<META name="IBM:HPB-Input-Mode" content="mode/flm; pagewidth=940; pageheight=1200">
+<TITLE>トップ</TITLE>
+<SCRIPT language="JavaScript">
+<!--HPB_SCRIPT_ROV_50
+//
+//  Licensed Materials - Property of IBM
+//  5724G06
+//  (C) Copyright IBM Corp. 1995, 2004 All Rights Reserved.
+//
+
+// HpbImgPreload:
+//
+function HpbImgPreload()
+{
+  var appVer=parseInt(navigator.appVersion);
+  var isNC=false,isN6=false,isIE=false;
+  if (document.all && appVer >= 4) isIE=true; else
+    if (document.getElementById && appVer > 4) isN6=true; else
+      if (document.layers && appVer >= 4) isNC=true;
+  if (isNC||isN6||isIE)
+  {
+    if (document.images)
+    {
+      var imgName = HpbImgPreload.arguments[0];
+      var cnt;
+      swImg[imgName] = new Array;
+      for (cnt = 1; cnt < HpbImgPreload.arguments.length; cnt++)
+      {
+        swImg[imgName][HpbImgPreload.arguments[cnt]] = new Image();
+        swImg[imgName][HpbImgPreload.arguments[cnt]].src = HpbImgPreload.arguments[cnt];
+      }
+    }
+  }
+}
+// HpbImgFind:
+//
+function HpbImgFind(doc, imgName)
+{
+  for (var i=0; i < doc.layers.length; i++)
+  {
+    var img = doc.layers[i].document.images[imgName];
+    if (!img) img = HpbImgFind(doc.layers[i], imgName);
+    if (img) return img;
+  }
+  return null;
+}
+// HpbImgSwap:
+//
+function HpbImgSwap(imgName, imgSrc)
+{
+  var appVer=parseInt(navigator.appVersion);
+  var isNC=false,isN6=false,isIE=false;
+  if (document.all && appVer >= 4) isIE=true; else
+    if (document.getElementById && appVer > 4) isN6=true; else
+      if (document.layers && appVer >= 4) isNC=true;
+  if (isNC||isN6||isIE)
+  {
+    if (document.images)
+    {
+      var img = document.images[imgName];
+      if (!img) img = HpbImgFind(document, imgName);
+      if (img) img.src = imgSrc;
+    }
+  }
+}
+var swImg; swImg=new Array;
+//-->
+</SCRIPT><SCRIPT language="JavaScript">
+<!--HPB_SCRIPT_PLD_50
+HpbImgPreload('_HPB_ROLLOVER1', '2c.gif', '2d.gif');
+HpbImgPreload('_HPB_ROLLOVER2', '3c1.gif', '3d1.gif');
+HpbImgPreload('_HPB_ROLLOVER3', '3c2.gif', '3d2.gif');
+HpbImgPreload('_HPB_ROLLOVER4', '4c.gif', '4d.gif');
+HpbImgPreload('_HPB_ROLLOVER5', '5c.gif', '4d.gif');
+HpbImgPreload('_HPB_ROLLOVER6', '6c.gif', '6d.gif');
+HpbImgPreload('_HPB_ROLLOVER7', '7c.gif', '7d.gif');
+HpbImgPreload('_HPB_ROLLOVER8', '8c.gif', '8d.gif');
+HpbImgPreload('_HPB_ROLLOVER9', '9c.gif', '9d.gif');
+HpbImgPreload('_HPB_ROLLOVER10', '10c.gif', '10d.gif');
+HpbImgPreload('_HPB_ROLLOVER11', '11c.gif', '11d.gif');
+HpbImgPreload('HPB_ROLLOVER1', '12c.gif', '12d.gif');
+//-->
+</SCRIPT></HEAD>
+<BODY bgcolor="#FFCC66" text="#000000" link="#0000FF" vlink="#0000FF" alink="#0000FF" background="sh05_bg.gif">
+<DIV style="top : 12px;left : -2px;
+  position : absolute;
+  z-index : -1;
+  visibility : visible;
+" id="Layer1"><IMG src="1a.gif" width="600" height="90" border="0"></DIV>
+<DIV style="top : 31px;left : 650px;
+  position : absolute;
+  z-index : 1;
+  visibility : visible;
+" id="Layer2"><IMG src="1b.gif" width="275" height="62" border="0"></DIV>
+<DIV style="top : 8px;left : 153px;
+  position : absolute;
+  z-index : 2;
+" id="Layer17"><EMBED src="picnic.mid" autostart="true" hidden="true" loop="true" width="159" height="18"></DIV>
+<DIV style="top : 619px;left : 422px;
+  position : absolute;
+  z-index : 7;
+" id="Layer23"></DIV>
+<DIV style="top : 620px;left : 31px;
+	position : absolute;
+
+	z-index : 22;
+" id="Layer25"><A href="2009.htm" id="HPB_ROLLOVER1" onmouseout="HpbImgSwap('HPB_ROLLOVER1', '12c.gif');" onmouseover="HpbImgSwap('HPB_ROLLOVER1', '12d.gif');"><IMG src="12c.gif" width="123" height="31" border="0" alt="福井 " name="HPB_ROLLOVER1"></A></DIV>
+<DIV style="top : 290px;left : 15px;
+  position : absolute;
+  z-index : 19;
+" id="Layer119"><IMG src="tc1.gif" width="139" height="36" border="0"></DIV>
+<DIV style="top : 438px;left : 191px;
+  position : absolute;
+  z-index : 4;
+" id="Layer20"><IMG src="logo2.gif" width="90" height="27" border="0"></DIV>
+<DIV style="top : 445px;left : 309px;
+  position : absolute;
+  z-index : 6;
+  width : 528px;
+  height : 48px;
+" id="Layer22">
+<P><FONT size="2" color="#666666">2004/07/25 ： HP新規開設<BR>
+2004/08/22 ： ロールオーバ画像追加<BR>
+2005/12/23 ： 全面的にデザイン変更。 2004年と2005年の頁を追加。 加工写真の頁を追加</FONT><FONT color="#666666">。<BR>
+　　　<FONT size="2"> （以降毎年更新）<BR>
+</FONT><FONT size="2" color="#ff0000">2010/01/05</FONT><FONT size="2"> ：最新の更新<BR>
+</FONT></FONT></P>
+</DIV>
+<DIV style="top : 167px;left : 15px;
+  position : absolute;
+  z-index : 18;
+" id="Layer4"><A href="profile.htm" id="_HPB_ROLLOVER1" onmouseout="HpbImgSwap('_HPB_ROLLOVER1', '2c.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER1', '2d.gif');"><IMG src="2c.gif" width="139" height="36" border="0" name="_HPB_ROLLOVER1"></A></DIV>
+<DIV style="top : 201px;left : 307px;
+	position : absolute;
+
+	z-index : 23;
+" id="Layer14"><APPLET code="hm35.class" name="HotMedia" codebase="hotmedia2/" width="280" height="210" alt="HotMedia アニメーション">
+  <PARAM name="ShowALink" value="y">
+  <PARAM name="mvrfile" value="animation2.mvr">
+</APPLET></DIV>
+<DIV style="top : 249px;left : 15px;
+  position : absolute;
+  z-index : 17;
+" id="Layer6"><A href="photo2.html" id="_HPB_ROLLOVER3" onmouseout="HpbImgSwap('_HPB_ROLLOVER3', '3c2.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER3', '3d2.gif');"><IMG src="3c2.gif" width="139" height="36" border="0" name="_HPB_ROLLOVER3"></A></DIV>
+<DIV style="top : 126px;left : 15px;
+  position : absolute;
+  z-index : 16;
+  visibility : visible;
+" id="Layer3"><IMG src="1e.gif" width="139" height="36" border="0"></DIV>
+<DIV style="top : 129px;left : 236px;
+  position : absolute;
+  z-index : 3;
+  width : 675px;
+  height : 80px;
+
+	visibility : visible;
+" id="Layer19">
+<P><FONT size="2"><B><FONT color="#660000" face="ＭＳ ゴシック" size="2">ようこそ、どたぐつ会のホームページへ</FONT><FONT color="#660000" face="ＭＳ ゴシック"><BR>
+どたぐつ会は、年１回の旅行を中心に熟年時代を楽しむ10人あまりのサークルです。<BR>
+体力は下がりがちでも、いつも笑いが絶えない元気で愉快な仲間たちです。</FONT></B></FONT></P>
+</DIV>
+<DIV style="top : 548px;left : 31px;
+  position : absolute;
+  z-index : 15;
+  visibility : visible;
+" id="Layer13"><A href="2007.htm" id="_HPB_ROLLOVER10" onmouseout="HpbImgSwap('_HPB_ROLLOVER10', '10c.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER10', '10d.gif');"><IMG src="10c.gif" width="123" height="31" border="0" name="_HPB_ROLLOVER10"></A></DIV>
+<DIV style="top : 475px;left : 31px;
+  position : absolute;
+  z-index : 14;
+" id="Layer11"><A href="2005.htm" id="_HPB_ROLLOVER8" onmouseout="HpbImgSwap('_HPB_ROLLOVER8', '8c.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER8', '8d.gif');"><IMG src="8c.gif" width="123" height="31" border="0" name="_HPB_ROLLOVER8"></A></DIV>
+<DIV style="top : 439px;left : 31px;
+  position : absolute;
+  z-index : 13;
+" id="Layer10"><A href="2004.htm" id="_HPB_ROLLOVER7" onmouseout="HpbImgSwap('_HPB_ROLLOVER7', '7c.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER7', '7d.gif');"><IMG src="7c.gif" width="123" height="31" border="0" name="_HPB_ROLLOVER7"></A></DIV>
+<DIV style="top : 403px;left : 31px;
+  position : absolute;
+  z-index : 12;
+" id="Layer9"><A href="2003.htm" id="_HPB_ROLLOVER6" onmouseout="HpbImgSwap('_HPB_ROLLOVER6', '6c.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER6', '6d.gif');"><IMG src="6c.gif" width="123" height="31" border="0" name="_HPB_ROLLOVER6"></A></DIV>
+<DIV style="top : 367px;left : 31px;
+  position : absolute;
+  z-index : 11;
+" id="Layer8"><A href="2002.htm" id="_HPB_ROLLOVER5" onmouseout="HpbImgSwap('_HPB_ROLLOVER5', '5c.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER5', '4d.gif');"><IMG src="5c.gif" width="123" height="31" border="0" name="_HPB_ROLLOVER5"></A></DIV>
+<DIV style="top : 540px;left : 307px;
+  position : absolute;
+  z-index : 8;
+  width : 585px;
+  height : 214px;
+" id="Layer24">
+<P><FONT size="2" color="#666666">１．この頁の動画アニメを閲覧するには、Microsoft VM が必要です。<BR>
+　　動画が見えない時は、Microsoft VM をインストールして下さい。<BR>
+</FONT>　<FONT color="#ff0000" size="-1">ご注意！</FONT><BR>
+　 <FONT size="2" color="#666666">Microsoftは2007/12/Ｅに、Microsoft VMのサポートを打ち切りました。<BR>
+　　新しいＰＣでIE ｖｅｒ7.0を使用している時など、動画アニメが見られない場合は<BR>
+　　代わりに下記HPからJava Runtime Environment をインストールして下さい。（無料）<BR>
+　　　　　　　　　　　　　　　<A href="http://www.java.com/ja/download/" target="_blank">http://www.java.com/ja/download/</A><BR>
+２．上部に、「セキュリティ保護のため・・・」の警告バーが出るときは、警告バーをクリックして<BR>
+　　「ブロックされているアクティブコンテンツの実行を許可する」に設定して下さい。<BR>
+３．このＨＰでは一部に ＪａｖａＳｃｒｉｐｔ を使用しています。インターネット起動時にスクリプトへの<BR>
+　　アクセスやＡｃｔｉｖｅＸ使用の警告が出る場合は、かまわず「使用する」に設定して下さい。<BR>
+４．右側に大きく余白が出来る幅広ディスプレーをご使用の場合は、Ctrlキーを押しながら<BR>
+　　何回か +キーを押して拡大すると見やすくなります。<BR>
+　　ただしこの頁はアニメーション実行中のため、この頁以外で操作して下さい。（1回でOK）<BR>
+</FONT></P>
+</DIV>
+<DIV style="top : 532px;left : 189px;
+  position : absolute;
+  z-index : 5;
+" id="Layer21"><IMG src="logo1.gif" width="111" height="27" border="0"></DIV>
+<DIV style="top : 331px;left : 31px;
+  position : absolute;
+  z-index : 10;
+" id="Layer7"><A href="2001.htm" id="_HPB_ROLLOVER4" onmouseout="HpbImgSwap('_HPB_ROLLOVER4', '4c.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER4', '4d.gif');"><IMG src="4c.gif" width="123" height="31" border="0" name="_HPB_ROLLOVER4"></A></DIV>
+<DIV style="top : 208px;left : 15px;
+  position : absolute;
+  z-index : 9;
+" id="Layer5"><A href="photo1.htm" id="_HPB_ROLLOVER2" onmouseout="HpbImgSwap('_HPB_ROLLOVER2', '3c1.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER2', '3d1.gif');"><IMG src="3c1.gif" width="139" height="36" border="0" name="_HPB_ROLLOVER2"></A></DIV>
+<DIV style="top : 512px;left : 31px;
+  position : absolute;
+  z-index : 20;
+" id="Layer12"><A href="2006.htm" id="_HPB_ROLLOVER9" onmouseout="HpbImgSwap('_HPB_ROLLOVER9', '9c.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER9', '9d.gif');"><IMG src="9c.gif" width="123" height="31" border="0" name="_HPB_ROLLOVER9"></A></DIV>
+<DIV style="top : 40px;left : 87px;
+  position : absolute;
+  z-index : -2;
+" id="Layer15"><A href="2008.htm">2007</A></DIV>
+<DIV style="top : 50px;left : 50px;
+  position : absolute;
+  z-index : -3;
+" id="Layer16"><A href="2009.htm">2009越前</A></DIV>
+<DIV style="top : 584px;left : 31px;
+  position : absolute;
+  z-index : 21;
+" id="Layer18"><A href="2008.htm" id="_HPB_ROLLOVER11" onmouseout="HpbImgSwap('_HPB_ROLLOVER11', '11c.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER11', '11d.gif');"><IMG src="11c.gif" width="123" height="31" border="0" name="_HPB_ROLLOVER11"></A></DIV>
+</BODY>
+</HTML>
