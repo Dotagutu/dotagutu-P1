@@ -1,0 +1,369 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 13.0.3.0 for Windows">
+<META http-equiv="Content-Style-Type" content="text/css">
+<META name="IBM:HPB-Input-Mode" content="mode/flm; pagewidth=1024; pageheight=768">
+<TITLE>写真加工１</TITLE>
+<SCRIPT language="JavaScript">
+<!--HPB_SCRIPT_ROV_50
+//
+//  Licensed Materials - Property of IBM
+//  5724G06
+//  (C) Copyright IBM Corp. 1995, 2003 All Rights Reserved.
+//
+
+// HpbImgPreload:
+//
+function HpbImgPreload()
+{
+  var appVer=parseInt(navigator.appVersion);
+  var isNC=false,isN6=false,isIE=false;
+  if (document.all && appVer >= 4) isIE=true; else
+    if (document.getElementById && appVer > 4) isN6=true; else
+      if (document.layers && appVer >= 4) isNC=true;
+  if (isNC||isN6||isIE)
+  {
+    if (document.images)
+    {
+      var imgName = HpbImgPreload.arguments[0];
+      var cnt;
+      swImg[imgName] = new Array;
+      for (cnt = 1; cnt < HpbImgPreload.arguments.length; cnt++)
+      {
+        swImg[imgName][HpbImgPreload.arguments[cnt]] = new Image();
+        swImg[imgName][HpbImgPreload.arguments[cnt]].src = HpbImgPreload.arguments[cnt];
+      }
+    }
+  }
+}
+// HpbImgFind:
+//
+function HpbImgFind(doc, imgName)
+{
+  for (var i=0; i < doc.layers.length; i++)
+  {
+    var img = doc.layers[i].document.images[imgName];
+    if (!img) img = HpbImgFind(doc.layers[i], imgName);
+    if (img) return img;
+  }
+  return null;
+}
+// HpbImgSwap:
+//
+function HpbImgSwap(imgName, imgSrc)
+{
+  var appVer=parseInt(navigator.appVersion);
+  var isNC=false,isN6=false,isIE=false;
+  if (document.all && appVer >= 4) isIE=true; else
+    if (document.getElementById && appVer > 4) isN6=true; else
+      if (document.layers && appVer >= 4) isNC=true;
+  if (isNC||isN6||isIE)
+  {
+    if (document.images)
+    {
+      var img = document.images[imgName];
+      if (!img) img = HpbImgFind(document, imgName);
+      if (img) img.src = imgSrc;
+    }
+  }
+}
+var swImg; swImg=new Array;
+//-->
+</SCRIPT><SCRIPT language="JavaScript">
+<!--HPB_SCRIPT_PLD_50
+HpbImgPreload('_HPB_ROLLOVER11', 'file:///D:/どたぐつ/HP/sirakaba2.gif', 'file:///F:/HP Parts/sarubia4.gif');
+HpbImgPreload('_HPB_ROLLOVER46', 'file:///D:/どたぐつ/HP/class0.gif', 'file:///F:/HP Parts/class1.gif');
+HpbImgPreload('_HPB_ROLLOVER3', 'sirakaba1.jpg', 'sirakaba3.jpg');
+HpbImgPreload('_HPB_ROLLOVER11', 'sirakaba2.gif', 'sirakaba4.gif');
+HpbImgPreload('_HPB_ROLLOVER12', 'sirakaba0.gif', 'class2.gif');
+HpbImgPreload('_HPB_ROLLOVER13', 'jinmen1.jpg', 'jinmen3.jpg');
+HpbImgPreload('_HPB_ROLLOVER46', 'jinmen2.gif', 'jinmen4.gif');
+HpbImgPreload('_HPB_ROLLOVER47', 'jinmen0.gif', 'class1.gif');
+HpbImgPreload('_HPB_ROLLOVER14', 'women1.jpg', 'women3.jpg');
+HpbImgPreload('_HPB_ROLLOVER15', 'women2.gif', 'women4.gif');
+HpbImgPreload('_HPB_ROLLOVER48', 'women0.gif', 'class3.gif');
+HpbImgPreload('_HPB_ROLLOVER18', 'yakedake1.jpg', 'yakedake3.jpg');
+HpbImgPreload('_HPB_ROLLOVER19', 'yakedake2.gif', 'yakedake4.gif');
+HpbImgPreload('_HPB_ROLLOVER50', 'yakedake0.gif', 'class1.gif');
+HpbImgPreload('_HPB_ROLLOVER20', 'sarubia1.jpg', 'sarubia3.jpg');
+HpbImgPreload('_HPB_ROLLOVER21', 'sarubia2.gif', 'sarubia4.gif');
+HpbImgPreload('_HPB_ROLLOVER51', 'sarubia0.gif', 'class1.gif');
+HpbImgPreload('_HPB_ROLLOVER28', 'ougon1.jpg', 'ougon3.jpg');
+HpbImgPreload('_HPB_ROLLOVER29', 'ougon2.gif', 'ougon4.gif');
+HpbImgPreload('_HPB_ROLLOVER55', 'ougon0.gif', 'class1.gif');
+HpbImgPreload('_HPB_ROLLOVER30', 'gyakkou1.jpg', 'gyakkou3.jpg');
+HpbImgPreload('_HPB_ROLLOVER31', 'gyakkou2.gif', 'gyakkou4.gif');
+HpbImgPreload('_HPB_ROLLOVER56', 'gyakkou0.gif', 'class2.gif');
+HpbImgPreload('_HPB_ROLLOVER32', 'pansy1.jpg', 'pansy3.jpg');
+HpbImgPreload('_HPB_ROLLOVER33', 'pansy2.gif', 'pansy4.gif');
+HpbImgPreload('_HPB_ROLLOVER57', 'pansy0.gif', 'class3.gif');
+HpbImgPreload('_HPB_ROLLOVER34', 'sepia1.jpg', 'sepia3.jpg');
+HpbImgPreload('_HPB_ROLLOVER35', 'sepia2.gif', 'sepia4.gif');
+HpbImgPreload('_HPB_ROLLOVER58', 'sepia0.gif', 'class2.gif');
+HpbImgPreload('_HPB_ROLLOVER36', 'mono1.jpg', 'mono3.jpg');
+HpbImgPreload('_HPB_ROLLOVER37', 'mono2.gif', 'mono4.gif');
+HpbImgPreload('_HPB_ROLLOVER59', 'mono0.gif', 'class1.gif');
+HpbImgPreload('_HPB_ROLLOVER64', 'akiya1.jpg', 'akiya3.jpg');
+HpbImgPreload('_HPB_ROLLOVER65', 'akiya2.gif', 'akiya4.gif');
+HpbImgPreload('_HPB_ROLLOVER66', 'akiya0.gif', 'class3.gif');
+HpbImgPreload('_HPB_ROLLOVER1', '2c.gif', '2d.gif');
+HpbImgPreload('_HPB_ROLLOVER2', '3c2.gif', '3d2.gif');
+HpbImgPreload('_HPB_ROLLOVER4', '4c.gif', '4d.gif');
+HpbImgPreload('_HPB_ROLLOVER5', '5c.gif', '5d.gif');
+HpbImgPreload('_HPB_ROLLOVER6', '6c.gif', '6d.gif');
+HpbImgPreload('_HPB_ROLLOVER7', '7c.gif', '7d.gif');
+HpbImgPreload('_HPB_ROLLOVER8', '8c.gif', '8d.gif');
+HpbImgPreload('_HPB_ROLLOVER10', '10c.gif', '10d.gif');
+HpbImgPreload('_HPB_ROLLOVER22', '1c.gif', '1d.gif');
+HpbImgPreload('_HPB_ROLLOVER16', 'sankei1.jpg', 'sankei3.jpg');
+HpbImgPreload('_HPB_ROLLOVER17', 'sankei2.gif', 'sankei4.gif');
+HpbImgPreload('_HPB_ROLLOVER23', 'sankei0.gif', 'class1.gif');
+HpbImgPreload('_HPB_ROLLOVER9', '9c.gif', '9d.gif');
+HpbImgPreload('_HPB_ROLLOVER24', '11c.gif', '11d.gif');
+//-->
+</SCRIPT></HEAD>
+<BODY bgcolor="#FFCC66" text="#000000" link="#00000FF" vlink="#0000FF" alink="#0000FF" background="sh05_bg.gif">
+<DIV style="top : 14px;left : 0px;
+  position : absolute;
+  z-index : 1;
+  visibility : visible;
+" id="Layer1"><IMG src="3a.gif" width="600" height="90" border="0"></DIV>
+<DIV style="top : 31px;left : 650px;
+  position : absolute;
+  z-index : 2;
+  visibility : visible;
+" id="Layer2"><IMG src="3b1.gif" width="274" height="62" border="0"></DIV>
+<DIV style="top : 118px;left : 329px;
+  position : absolute;
+  z-index : 5;
+  width : 663px;
+  height : 120px;
+" id="Layer15">
+<P><FONT size="-1" color="#990000"><B>これまでのアルバムの中から、加工写真をいくつかご紹介しましょう。<BR>
+マウスを加工前写真の上に置くと、加工後の写真と説明が出てきます。<BR>
+加工前後の写真のサイズと位置をぴったり合わせて、その差が明確に出るように工夫しました。<BR>
+テマヒマかけて作りましたので一枚づつゆっくりと味わいながら見ていただけるとうれしいです。</B><BR>
+　　　　　　　　　　　　　　　　　　　　</FONT><B><FONT size="-1" color="#990000">写真加工ソフト：Photoshop Elements</FONT></B></P>
+</DIV>
+<DIV style="top : 120px;left : 242px;
+  position : absolute;
+  z-index : 4;
+" id="Layer14"><IMG src="album.gif" width="73" height="82" border="0"></DIV>
+<DIV style="top : 469px;left : 715px;
+  position : absolute;
+  z-index : 6;
+" id="Layer18"><A href="#" id="_HPB_ROLLOVER13" onmouseover="HpbImgSwap('_HPB_ROLLOVER13', 'jinmen3.jpg'); HpbImgSwap('_HPB_ROLLOVER46', 'jinmen4.gif'); HpbImgSwap('_HPB_ROLLOVER47', 'class1.gif');" onmouseout="HpbImgSwap('_HPB_ROLLOVER13', 'jinmen1.jpg'); HpbImgSwap('_HPB_ROLLOVER46', 'jinmen2.gif'); HpbImgSwap('_HPB_ROLLOVER47', 'jinmen0.gif');"><IMG src="jinmen1.jpg" width="209" height="170" border="0" name="_HPB_ROLLOVER13"></A></DIV>
+<DIV style="top : 662px;left : 291px;
+  position : absolute;
+  z-index : 7;
+" id="Layer20"><A href="#" id="_HPB_ROLLOVER14" onmouseover="HpbImgSwap('_HPB_ROLLOVER14', 'women3.jpg'); HpbImgSwap('_HPB_ROLLOVER15', 'women4.gif'); HpbImgSwap('_HPB_ROLLOVER48', 'class3.gif');" onmouseout="HpbImgSwap('_HPB_ROLLOVER14', 'women1.jpg'); HpbImgSwap('_HPB_ROLLOVER15', 'women2.gif'); HpbImgSwap('_HPB_ROLLOVER48', 'women0.gif');"><IMG src="women1.jpg" width="206" height="278" border="0" name="_HPB_ROLLOVER14"></A></DIV>
+<DIV style="top : 791px;left : 533px;
+  position : absolute;
+  z-index : 8;
+" id="Layer21"><IMG src="women2.gif" width="312" height="48" border="0" name="_HPB_ROLLOVER15"></DIV>
+<DIV style="top : 1053px;left : 590px;
+  position : absolute;
+  z-index : 9;
+" id="Layer23"><IMG src="sankei2.gif" width="312" height="48" border="0" name="_HPB_ROLLOVER17"></DIV>
+<DIV style="top : 311px;left : 531px;
+  position : absolute;
+  z-index : 10;
+" id="Layer17"><IMG src="sirakaba2.gif" width="312" height="80" border="0" name="_HPB_ROLLOVER11"></DIV>
+<DIV style="top : 1188px;left : 670px;
+  position : absolute;
+  z-index : 11;
+" id="Layer24"><A href="#" id="_HPB_ROLLOVER18" onmouseover="HpbImgSwap('_HPB_ROLLOVER18', 'yakedake3.jpg'); HpbImgSwap('_HPB_ROLLOVER19', 'yakedake4.gif'); HpbImgSwap('_HPB_ROLLOVER50', 'class1.gif');" onmouseout="HpbImgSwap('_HPB_ROLLOVER18', 'yakedake1.jpg'); HpbImgSwap('_HPB_ROLLOVER19', 'yakedake2.gif'); HpbImgSwap('_HPB_ROLLOVER50', 'yakedake0.gif');"><IMG src="yakedake1.jpg" width="254" height="187" border="0" name="_HPB_ROLLOVER18"></A></DIV>
+<DIV style="top : 1270px;left : 345px;
+  position : absolute;
+  z-index : 12;
+" id="Layer25"><IMG src="yakedake2.gif" width="312" height="80" border="0" name="_HPB_ROLLOVER19"></DIV>
+<DIV style="top : 7242px;left : 152px;
+  position : absolute;
+  z-index : 13;
+" id="Layer26"><IMG src="bullet001.gif" width="20" height="22" border="0"></DIV>
+<DIV style="top : 1402px;left : 249px;
+  position : absolute;
+  z-index : 14;
+" id="Layer27"><A href="#" id="_HPB_ROLLOVER20" onmouseover="HpbImgSwap('_HPB_ROLLOVER20', 'sarubia3.jpg'); HpbImgSwap('_HPB_ROLLOVER21', 'sarubia4.gif'); HpbImgSwap('_HPB_ROLLOVER51', 'class1.gif');" onmouseout="HpbImgSwap('_HPB_ROLLOVER20', 'sarubia1.jpg'); HpbImgSwap('_HPB_ROLLOVER21', 'sarubia2.gif'); HpbImgSwap('_HPB_ROLLOVER51', 'sarubia0.gif');"><IMG src="sarubia1.jpg" width="287" height="233" border="0" name="_HPB_ROLLOVER20"></A></DIV>
+<DIV style="top : 1496px;left : 554px;
+  position : absolute;
+  z-index : 15;
+" id="Layer28"><IMG src="sarubia2.gif" width="312" height="80" border="0" name="_HPB_ROLLOVER21"></DIV>
+<DIV style="top : 1665px;left : 249px;
+  position : absolute;
+  z-index : 16;
+" id="Layer35"><A href="#" id="_HPB_ROLLOVER28" onmouseover="HpbImgSwap('_HPB_ROLLOVER28', 'ougon3.jpg'); HpbImgSwap('_HPB_ROLLOVER29', 'ougon4.gif'); HpbImgSwap('_HPB_ROLLOVER55', 'class1.gif');" onmouseout="HpbImgSwap('_HPB_ROLLOVER28', 'ougon1.jpg'); HpbImgSwap('_HPB_ROLLOVER29', 'ougon2.gif'); HpbImgSwap('_HPB_ROLLOVER55', 'ougon0.gif');"><IMG src="ougon1.jpg" width="169" height="227" border="0" name="_HPB_ROLLOVER28"></A></DIV>
+<DIV style="top : 1765px;left : 436px;
+  position : absolute;
+  z-index : 17;
+" id="Layer36"><IMG src="ougon2.gif" width="312" height="48" border="0" name="_HPB_ROLLOVER29"></DIV>
+<DIV style="top : 1902px;left : 699px;
+  position : absolute;
+  z-index : 18;
+" id="Layer37"><A href="#" id="_HPB_ROLLOVER30" onmouseover="HpbImgSwap('_HPB_ROLLOVER30', 'gyakkou3.jpg'); HpbImgSwap('_HPB_ROLLOVER31', 'gyakkou4.gif'); HpbImgSwap('_HPB_ROLLOVER56', 'class2.gif');" onmouseout="HpbImgSwap('_HPB_ROLLOVER30', 'gyakkou1.jpg'); HpbImgSwap('_HPB_ROLLOVER31', 'gyakkou2.gif'); HpbImgSwap('_HPB_ROLLOVER56', 'gyakkou0.gif');"><IMG src="gyakkou1.jpg" width="214" height="289" border="0" name="_HPB_ROLLOVER30"></A></DIV>
+<DIV style="top : 2027px;left : 366px;
+  position : absolute;
+  z-index : 19;
+" id="Layer38"><IMG src="gyakkou2.gif" width="312" height="80" border="0" name="_HPB_ROLLOVER31"></DIV>
+<DIV style="top : 2222px;left : 271px;
+  position : absolute;
+  z-index : 20;
+" id="Layer39"><A href="#" id="_HPB_ROLLOVER32" onmouseover="HpbImgSwap('_HPB_ROLLOVER32', 'pansy3.jpg'); HpbImgSwap('_HPB_ROLLOVER33', 'pansy4.gif'); HpbImgSwap('_HPB_ROLLOVER57', 'class3.gif');" onmouseout="HpbImgSwap('_HPB_ROLLOVER32', 'pansy1.jpg'); HpbImgSwap('_HPB_ROLLOVER33', 'pansy2.gif'); HpbImgSwap('_HPB_ROLLOVER57', 'pansy0.gif');"><IMG src="pansy1.jpg" width="207" height="153" border="0" name="_HPB_ROLLOVER32"></A></DIV>
+<DIV style="top : 2276px;left : 491px;
+  position : absolute;
+  z-index : 21;
+" id="Layer40"><IMG src="pansy2.gif" width="312" height="80" border="0" name="_HPB_ROLLOVER33"></DIV>
+<DIV style="top : 2396px;left : 679px;
+  position : absolute;
+  z-index : 22;
+" id="Layer41"><A href="#" id="_HPB_ROLLOVER34" onmouseover="HpbImgSwap('_HPB_ROLLOVER34', 'sepia3.jpg'); HpbImgSwap('_HPB_ROLLOVER35', 'sepia4.gif'); HpbImgSwap('_HPB_ROLLOVER58', 'class2.gif');" onmouseout="HpbImgSwap('_HPB_ROLLOVER34', 'sepia1.jpg'); HpbImgSwap('_HPB_ROLLOVER35', 'sepia2.gif'); HpbImgSwap('_HPB_ROLLOVER58', 'sepia0.gif');"><IMG src="sepia1.jpg" width="240" height="180" border="0" name="_HPB_ROLLOVER34"></A></DIV>
+<DIV style="top : 2462px;left : 355px;
+  position : absolute;
+  z-index : 23;
+" id="Layer42"><IMG src="sepia2.gif" width="312" height="80" border="0" name="_HPB_ROLLOVER35"></DIV>
+<DIV style="top : 2601px;left : 247px;
+  position : absolute;
+  z-index : 24;
+" id="Layer43"><A href="#" id="_HPB_ROLLOVER36" onmouseover="HpbImgSwap('_HPB_ROLLOVER36', 'mono3.jpg'); HpbImgSwap('_HPB_ROLLOVER37', 'mono4.gif'); HpbImgSwap('_HPB_ROLLOVER59', 'class1.gif');" onmouseout="HpbImgSwap('_HPB_ROLLOVER36', 'mono1.jpg'); HpbImgSwap('_HPB_ROLLOVER37', 'mono2.gif'); HpbImgSwap('_HPB_ROLLOVER59', 'mono0.gif');"><IMG src="mono1.jpg" width="276" height="155" border="0" name="_HPB_ROLLOVER36"></A></DIV>
+<DIV style="top : 2667px;left : 548px;
+  position : absolute;
+  z-index : 25;
+" id="Layer44"><IMG src="mono2.gif" width="312" height="80" border="0" name="_HPB_ROLLOVER37"></DIV>
+<DIV style="top : 550px;left : 384px;
+  position : absolute;
+  z-index : 26;
+" id="Layer19"><IMG src="jinmen2.gif" width="312" height="48" border="0" name="_HPB_ROLLOVER46"></DIV>
+<DIV style="top : 236px;left : 255px;
+  position : absolute;
+  z-index : 27;
+" id="Layer16"><A href="#" id="_HPB_ROLLOVER3" onmouseover="HpbImgSwap('_HPB_ROLLOVER3', 'sirakaba3.jpg'); HpbImgSwap('_HPB_ROLLOVER11', 'sirakaba4.gif'); HpbImgSwap('_HPB_ROLLOVER12', 'class2.gif');" onmouseout="HpbImgSwap('_HPB_ROLLOVER3', 'sirakaba1.jpg'); HpbImgSwap('_HPB_ROLLOVER11', 'sirakaba2.gif'); HpbImgSwap('_HPB_ROLLOVER12', 'sirakaba0.gif');"><IMG src="sirakaba1.jpg" width="259" height="215" border="0" name="_HPB_ROLLOVER3"></A></DIV>
+<DIV style="top : 970px;left : 274px;
+  position : absolute;
+  z-index : 28;
+" id="Layer22"><A href="#" id="_HPB_ROLLOVER16" onmouseover="HpbImgSwap('_HPB_ROLLOVER16', 'sankei3.jpg'); HpbImgSwap('_HPB_ROLLOVER17', 'sankei4.gif'); HpbImgSwap('_HPB_ROLLOVER23', 'class1.gif');" onmouseout="HpbImgSwap('_HPB_ROLLOVER16', 'sankei1.jpg'); HpbImgSwap('_HPB_ROLLOVER17', 'sankei2.gif'); HpbImgSwap('_HPB_ROLLOVER23', 'sankei0.gif');"><IMG src="sankei1.jpg" width="306" height="196" border="0" name="_HPB_ROLLOVER16"></A></DIV>
+<DIV style="top : 261px;left : 540px;
+  position : absolute;
+  z-index : 29;
+" id="Layer53"><IMG src="class0.gif" width="54" height="38" border="0"></DIV>
+<DIV style="top : 267px;left : 542px;
+  position : absolute;
+  z-index : 30;
+" id="Layer54"><IMG src="sirakaba0.gif" width="54" height="38" border="0" name="_HPB_ROLLOVER12"></DIV>
+<DIV style="top : 504px;left : 387px;
+  position : absolute;
+  z-index : 31;
+" id="Layer55"><IMG src="jinmen0.gif" width="54" height="38" border="0" name="_HPB_ROLLOVER47"></DIV>
+<DIV style="top : 747px;left : 533px;
+  position : absolute;
+  z-index : 32;
+" id="Layer56"><IMG src="women0.gif" width="54" height="38" border="0" name="_HPB_ROLLOVER48"></DIV>
+<DIV style="top : 1006px;left : 593px;
+  position : absolute;
+  z-index : 33;
+" id="Layer57"><IMG src="sankei0.gif" width="54" height="38" border="0" name="_HPB_ROLLOVER23"></DIV>
+<DIV style="top : 1229px;left : 379px;
+  position : absolute;
+  z-index : 34;
+" id="Layer58"><IMG src="yakedake0.gif" width="54" height="38" border="0" name="_HPB_ROLLOVER50"></DIV>
+<DIV style="top : 1454px;left : 563px;
+  position : absolute;
+  z-index : 35;
+" id="Layer59"><IMG src="sarubia0.gif" width="54" height="38" border="0" name="_HPB_ROLLOVER51"></DIV>
+<DIV style="top : 1722px;left : 436px;
+  position : absolute;
+  z-index : 36;
+" id="Layer63"><IMG src="ougon0.gif" width="54" height="38" border="0" name="_HPB_ROLLOVER55"></DIV>
+<DIV style="top : 1984px;left : 378px;
+  position : absolute;
+  z-index : 37;
+" id="Layer64"><IMG src="gyakkou0.gif" width="54" height="38" border="0" name="_HPB_ROLLOVER56"></DIV>
+<DIV style="top : 2237px;left : 501px;
+  position : absolute;
+  z-index : 38;
+" id="Layer65"><IMG src="pansy0.gif" width="54" height="38" border="0" name="_HPB_ROLLOVER57"></DIV>
+<DIV style="top : 2420px;left : 364px;
+  position : absolute;
+  z-index : 39;
+" id="Layer66"><IMG src="sepia0.gif" width="54" height="38" border="0" name="_HPB_ROLLOVER58"></DIV>
+<DIV style="top : 2626px;left : 558px;
+  position : absolute;
+  z-index : 40;
+" id="Layer67"><IMG src="mono0.gif" width="54" height="38" border="0" name="_HPB_ROLLOVER59"></DIV>
+<DIV style="top : 2792px;left : 649px;
+  position : absolute;
+  z-index : 41;
+" id="Layer72"><A href="#" id="_HPB_ROLLOVER64" onmouseover="HpbImgSwap('_HPB_ROLLOVER64', 'akiya3.jpg'); HpbImgSwap('_HPB_ROLLOVER65', 'akiya4.gif'); HpbImgSwap('_HPB_ROLLOVER66', 'class3.gif');" onmouseout="HpbImgSwap('_HPB_ROLLOVER64', 'akiya1.jpg'); HpbImgSwap('_HPB_ROLLOVER65', 'akiya2.gif'); HpbImgSwap('_HPB_ROLLOVER66', 'akiya0.gif');"><IMG src="akiya1.jpg" width="260" height="301" border="0" name="_HPB_ROLLOVER64"></A></DIV>
+<DIV style="top : 2929px;left : 321px;
+  position : absolute;
+  z-index : 42;
+" id="Layer73"><IMG src="akiya2.gif" width="312" height="80" border="0" name="_HPB_ROLLOVER65"></DIV>
+<DIV style="top : 2886px;left : 333px;
+  position : absolute;
+  z-index : 43;
+" id="Layer74"><IMG src="akiya0.gif" width="54" height="38" border="0" name="_HPB_ROLLOVER66"></DIV>
+<DIV style="top : 3124px;left : 625px;
+  position : absolute;
+  z-index : 44;
+  visibility : visible;
+" id="Layer75"><A href="#UpPage"><IMG src="button2.gif" width="39" height="39" border="0" alt="この頁のTOPに移動"></A></DIV>
+<DIV style="top : 0px;left : 988px;
+  position : absolute;
+  z-index : 45;
+  visibility : hidden;
+" id="Layer76"><A name="UpPage"><IMG src="bullet079.gif" width="16" height="16" border="0"></A></DIV>
+<DIV style="top : 288px;left : 15px;
+  position : absolute;
+  z-index : 57;
+" id="Layer123"><IMG src="tc1.gif" width="139" height="36" border="0"></DIV>
+<DIV style="top : 247px;left : 15px;
+  position : absolute;
+  z-index : 56;
+" id="Layer78"><A href="photo2.html" id="_HPB_ROLLOVER2" onmouseout="HpbImgSwap('_HPB_ROLLOVER2', '3c2.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER2', '3d2.gif');"><IMG src="3c2.gif" width="139" height="36" border="0" name="_HPB_ROLLOVER2"></A></DIV>
+<DIV style="top : 509px;left : 31px;
+  position : absolute;
+  z-index : 55;
+" id="Layer3"><A href="2006.htm" id="_HPB_ROLLOVER9" onmouseout="HpbImgSwap('_HPB_ROLLOVER9', '9c.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER9', '9d.gif');"><IMG src="9c.gif" width="123" height="31" border="0" name="_HPB_ROLLOVER9"></A></DIV>
+<DIV style="top : 206px;left : 15px;
+  position : absolute;
+  z-index : 54;
+" id="Layer4"><IMG src="3e1.gif" width="139" height="36" border="0"></DIV>
+<DIV style="top : 545px;left : 31px;
+  position : absolute;
+  z-index : 53;
+" id="Layer5"><A href="2007.htm" id="_HPB_ROLLOVER10" onmouseout="HpbImgSwap('_HPB_ROLLOVER10', '10c.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER10', '10d.gif');"><IMG src="10c.gif" width="123" height="31" border="0" name="_HPB_ROLLOVER10"></A></DIV>
+<DIV style="top : 473px;left : 31px;
+  position : absolute;
+  z-index : 52;
+" id="Layer6"><A href="2005.htm" id="_HPB_ROLLOVER8" onmouseout="HpbImgSwap('_HPB_ROLLOVER8', '8c.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER8', '8d.gif');"><IMG src="8c.gif" width="123" height="31" border="0" name="_HPB_ROLLOVER8"></A></DIV>
+<DIV style="top : 437px;left : 31px;
+  position : absolute;
+  z-index : 51;
+" id="Layer7"><A href="2004.htm" id="_HPB_ROLLOVER7" onmouseout="HpbImgSwap('_HPB_ROLLOVER7', '7c.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER7', '7d.gif');"><IMG src="7c.gif" width="123" height="31" border="0" name="_HPB_ROLLOVER7"></A></DIV>
+<DIV style="top : 401px;left : 31px;
+  position : absolute;
+  z-index : 50;
+" id="Layer29"><A href="2003.htm" id="_HPB_ROLLOVER6" onmouseout="HpbImgSwap('_HPB_ROLLOVER6', '6c.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER6', '6d.gif');"><IMG src="6c.gif" width="123" height="31" border="0" name="_HPB_ROLLOVER6"></A></DIV>
+<DIV style="top : 365px;left : 31px;
+  position : absolute;
+  z-index : 49;
+" id="Layer30"><A href="2002.htm" id="_HPB_ROLLOVER5" onmouseout="HpbImgSwap('_HPB_ROLLOVER5', '5c.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER5', '5d.gif');"><IMG src="5c.gif" width="123" height="31" border="0" name="_HPB_ROLLOVER5"></A></DIV>
+<DIV style="top : 329px;left : 31px;
+  position : absolute;
+  z-index : 48;
+" id="Layer31"><A href="2001.htm" id="_HPB_ROLLOVER4" onmouseout="HpbImgSwap('_HPB_ROLLOVER4', '4c.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER4', '4d.gif');"><IMG src="4c.gif" width="123" height="31" border="0" name="_HPB_ROLLOVER4"></A></DIV>
+<DIV style="top : 165px;left : 15px;
+  position : absolute;
+  z-index : 47;
+" id="Layer32"><A href="profile.htm" id="_HPB_ROLLOVER1" onmouseout="HpbImgSwap('_HPB_ROLLOVER1', '2c.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER1', '2d.gif');"><IMG src="2c.gif" width="139" height="36" border="0" name="_HPB_ROLLOVER1"></A></DIV>
+<DIV style="top : 124px;left : 15px;
+  position : absolute;
+  z-index : 46;
+" id="Layer33"><A href="index.htm" id="_HPB_ROLLOVER22" onmouseout="HpbImgSwap('_HPB_ROLLOVER22', '1c.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER22', '1d.gif');"><IMG src="1c.gif" width="139" height="36" border="0" name="_HPB_ROLLOVER22"></A></DIV>
+<DIV style="top : 581px;left : 31px;
+  position : absolute;
+  z-index : 58;
+" id="Layer8"><A href="2008.htm" id="_HPB_ROLLOVER24" onmouseout="HpbImgSwap('_HPB_ROLLOVER24', '11c.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER24', '11d.gif');"><IMG src="11c.gif" width="123" height="31" border="0" name="_HPB_ROLLOVER24"></A></DIV>
+</BODY>
+</HTML>
